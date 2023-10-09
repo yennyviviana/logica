@@ -1,0 +1,16 @@
+//calcular el saldo final de la cuenta después de 3 años con una rentabilidad del 22% 
+utilizando la función pow(), que permite elevar un número a una potencia específica. 
+
+
+<?php
+// Definir el saldo inicial y la tasa de interés
+$saldoInicial = 1000; // cambiar por el valor deseado
+$tasaInteres = 0.22;
+
+// Calcular el saldo final después de 3 años
+$nroAnios = 3;
+$saldoFinal = $saldoInicial * pow((1 + $tasaInteres), $nroAnios);
+
+// Mostrar el saldo final
+echo "El saldo final después de 3 años es: $" . number_format($saldoFinal, 2);
+?>

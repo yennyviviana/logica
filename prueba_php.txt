@@ -1,0 +1,22 @@
+Mi nombre es Leonardo Delgado, administrador de sistemas y desarrollador de software para Seguriserver SAS y aliado estratégico de Olivia Direct, empresa para la cual se está llevando a cabo el proceso de selección; a continuación les comparto un ejercicio que nos permitirá evaluar conocimientos en Laravel y manejo de repositorios básico con GIT.
+
+Clone del repositorio https://bitbucket.org/swebsas/testlaravel.git la rama principal (master) (Repositorio público)
+Cree una nueva rama para una funcionalidad a partir de la rama master con la estructura "develop/{nick}" (se usará para el siguiente punto, el nick puede ser cualquier identificador de su nombre o sus iniciales)
+Crear según se considere los recursos necesarios para tener una estructura de productos y categorías. Opcionales: Categorías recursivas, es decir, una categoría puede tener una categoría padre y manejar N niveles de anidamiento
+Maneje estados del registro y/o borrado lógico.
+Establezca relaciones entre los modelos de tal manera que un producto pueda pertenecer a múltiples categorías
+NO se requiere un CRUD de categorías, estas se podrán alimentar directamente en base de datos (pero si lo desea se puede usar un comando de artisan o seeder para hacerlo).
+Crear un CRUD de productos donde se permita vincular múltiples categorías.
+Genere una vista en la que dado una categoría (parámetro de la URL) se muestren los productos vinculados
+Opcional (puntos extra, ejecute este punto sólo si está dentro del tiempo estimado de la prueba*): Implemente una respuesta tipo API para consultar productos
+Edite el archivo README.md y agregue una pequeña descripción de la funcionalidad, cuanto tiempo aproximado le tomó el ejercicio y guarde los cambios en su rama
+Del repositorio obtenga la rama “conflicto” y mézclela en su ramificación con la funcionalidad de productos y categorías, solucione los conflictos conservando ambos contenidos
+En un repositorio público (Ej:github) monte el repositorio y envíenos como respuesta a este email el vínculo correspondiente.
+Condiciones y generalidades:
+
+Opcionalmente use una plantilla, plugins o frameworks que permitan identificar sus capacidades a nivel de front (Bootstrap, Vue, etc) y que le agilicen el desarrollo
+*El ejercicio está diseñado para hacerse por una sola persona en un plazo máximo de 6 horas de trabajo y posteriormente se validará que se haya realizado la totalidad del ejercicio por el prospecto
+El plazo para entrega es hasta el martes 22 de marzo
+Se evaluará también la lógica, estructura y buenas prácticas de programación
+El proyecto se debe poder ejecutar en un ambiente local con al menos estos requisitos PHP >=7.4, MySQL 5.7
+Gracias.

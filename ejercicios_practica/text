@@ -1,0 +1,22 @@
+
+Aquí tienes una lista con varias operaciones matemáticas en PHP:
+
+Suma: $resultado = $numero1 + $numero2;
+Resta: $resultado = $numero1 - $numero2;
+Multiplicación: $resultado = $numero1 * $numero2;
+División: $resultado = $numero1 / $numero2;
+Módulo (Resto de la división): $resultado = $numero1 % $numero2;
+Potencia: $resultado = pow($base, $exponente);
+Raíz cuadrada: $resultado = sqrt($numero);
+Valor absoluto: $resultado = abs($numero);
+Redondeo: $resultado = round($numero);
+Redondeo hacia abajo: $resultado = floor($numero);
+Redondeo hacia arriba: $resultado = ceil($numero);
+Generar número aleatorio: $aleatorio = rand($minimo, $maximo);
+Obtener el valor máximo: $maximo = max($numero1, $numero2, $numero3);
+Obtener el valor mínimo: $minimo = min($numero1, $numero2, $numero3);
+Obtener el valor absoluto más grande: $mayorAbsoluto = max(abs($numero1), abs($numero2), abs($numero3));
+Truncar (eliminar decimales): $resultado = intval($numero);
+Convertir a entero: $entero = intval($numero);
+Generar número aleatorio con coma decimal: $aleatorioDecimal = rand($minimo * 100, $maximo * 100) / 100;
+Redondeo con decimales: $resultado = round($numero, $decimales);

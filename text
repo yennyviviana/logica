@@ -1,0 +1,28 @@
+//antes de aprender a programar es necesario sentar las bases por eso indispensable que aprendamos de logica de 
+
+/*programacion, que es un proceso que nos permite pensar, dsiseñar, resolver de manera logica y estructurada.
+Es  la capacidad de penssar en terminos de algoritmo y estructurab de datos y de diseñar soluciones eficientes 
+para problemas especificos.*/
+
+
+//proceso que siguimos para analisis de un algoritmo o problema dado seguimos:
+
+//1.Inicio
+//2. lo que conozco
+//3. lo que desconozco y  n se puede calcular
+//4.operacion o ejecucion
+//5. mostrar los resultados.
+//6 final.
+
+ 
+ algoritmo
+
+ /*calcular el salario mensual de un empleado0.El salario se calcula con base alsalario basico descuento por 
+ seguridad social y bonificacion de ventas.*/
+
+
+ datos
+
+ conozco
+ //desconozco:salario basico,, descuento por seguridad social,bonificaciones de ventas.
+ //scalcular: salario basico + 0.01,, pension= basico * 0.04, mensual= bsico-salud- pension + bonificacion;
